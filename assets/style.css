@@ -1,5 +1,5 @@
 header{
-    padding: 60px;
+    padding: 50px;
     text-align: center;
     background: red;
     color: black;
@@ -8,8 +8,8 @@ header{
 section h2{
     color: red; 
     float: left;
-    height: 100px;
-    width: 500%;
+    height: 50px;
+    width: 300%;
     margin-bottom: 15px;
 
 }
@@ -18,15 +18,33 @@ section p {
     color: blue;
     height: 100px;
     width: 100%;
-    flex-wrap: wrap;
+    text-align: left;
     padding: 50px 20px 20px 600px;
 }
 
-aside {
-    flex: 30%;
-    background-color: #b9c6ae;
-    padding: 50px 200px 20px 700px;
-    flex-wrap: wrap;
-    
-  }
-  
+header ul{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    padding: 30px, 10px;
+}
+
+header ul li{
+
+    display: block;
+    font-size: 2.5rem;
+    margin-left: 50px;
+    margin-right: 0px; 
+    margin-top: -30px;
+    margin-bottom: 100px;   
+ }
+
+ header h1{
+    float: left;
+    display: block;
+    font-size: 2.5rem;
+    margin-left: 30px;
+    margin-right: 0px; 
+    margin-top: -10px;
+    margin-bottom: 100px;   
+ }
