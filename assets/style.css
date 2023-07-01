@@ -5,23 +5,6 @@ header{
     color: black;
 }
 
-section h2{
-    color: red; 
-    float: left;
-    height: 50px;
-    width: 300%;
-    margin-bottom: 15px;
-
-}
-
-section p {
-    color: blue;
-    height: 100px;
-    width: 100%;
-    text-align: left;
-    padding: 50px 20px 20px 600px;
-}
-
 header ul{
     display: flex;
     flex-direction: row;
@@ -48,3 +31,38 @@ header ul li{
     margin-top: -10px;
     margin-bottom: 100px;   
  }
+
+.AboutMe {
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 30px;
+}
+
+.title {
+    border-right: 5px solid #873636;
+    min-height: 100%;
+    text-align: left;
+    padding-right: -200px;
+    min-width: 20%;
+    max-width: 20%;
+}
+
+.image{
+    height: 200px;
+    position: relative;
+    display: flex;
+    float: center;
+    
+}
+
+section{
+    color: aqua;
+}
+
+section p {
+    color: black;
+    display: flex;
+    text-align: right;
+}
