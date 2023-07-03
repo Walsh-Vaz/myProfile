@@ -49,16 +49,66 @@ header ul li{
     max-width: 20%;
 }
 
+.workTitle {
+    border-right: 5px solid #873636;
+    min-height: 100%;
+    text-align: left;
+    padding-right: -200px;
+    min-width: 20%;
+    max-width: 20%;
+}
+
+.contactTitle {
+    border-right: 5px solid #873636;
+    min-height: 100%;
+    text-align: left;
+    padding-right: -200px;
+    min-width: 20%;
+    max-width: 20%;
+}
+
 .image{
     height: 200px;
     position: relative;
+    left: 600px;
+    display: flex; 
+}
+
+.PetFinder {
+    background-image: url("./dogcatstock.jpg");
+    position: relative;
+    right: 60px;
+    top: 30px;
+    height: 200px;
+    width: 400px;
+
+}
+
+.project {
+    border: solid;
+    color: black;
     display: flex;
-    float: center;
-    
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
 }
 
 section{
     color: aqua;
+}
+
+.workContainer {
+    position: relative;
+    right: 300px;
+    top: 20px;
+}
+
+.workText {
+    color:#873636;
+    width: 50%;
+    position: relative;
+    left: 500px;
 }
 
 section p {
