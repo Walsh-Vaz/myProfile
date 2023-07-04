@@ -1,4 +1,7 @@
 header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 50px;
     text-align: center;
     background: red;
@@ -8,7 +11,6 @@ header{
 header ul{
     display: flex;
     flex-direction: row;
-    float: right;
     padding: 30px, 10px;
 }
 
@@ -16,20 +18,13 @@ header ul li{
 
     display: block;
     font-size: 2.5rem;
-    margin-left: 50px;
-    margin-right: 0px; 
-    margin-top: -30px;
-    margin-bottom: 100px;   
+    margin-left: 50px;   
  }
 
  header h1{
     float: left;
     display: block;
-    font-size: 2.5rem;
-    margin-left: 30px;
-    margin-right: 0px; 
-    margin-top: -10px;
-    margin-bottom: 100px;   
+    font-size: 2.5rem;  
  }
 
 .AboutMe {
@@ -68,17 +63,15 @@ header ul li{
 }
 
 .image{
-    height: 200px;
-    position: relative;
-    left: 600px;
-    display: flex; 
+    text-align: center;
 }
 
 .PetFinder {
     background-image: url("./dogcatstock.jpg");
     position: relative;
-    right: 60px;
-    top: 30px;
+    /* right: 60px;
+    top: 30px; */
+    margin-right: 25%;
     height: 200px;
     width: 400px;
 
@@ -121,8 +114,38 @@ section p {
 
 }
 
-@media screen and (max-width:768) {
+@media screen and (max-width:768px) {
     .AboutMe {
         flex-direction: column;
+        align-items: center;
     }
+
+    .title {
+        min-width: 100%;
+        max-width: 100%;
+        text-align: center;
+        border-right: 0px;
+    }
+
+    .workTitle {
+        min-width: 100%;
+        max-width: 100%;
+        text-align: center;
+        border-right: 0px;
+    }
+    
+    .PetFinder{
+        margin-right: 0px;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header ul li {
+        margin-left: 15px;
+        font-size: 1rem;
+    }
+
+
 }
