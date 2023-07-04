@@ -116,3 +116,13 @@ section p {
     display: flex;
     text-align: right;
 }
+
+@media screen and (max-width:980) {
+
+}
+
+@media screen and (max-width:768) {
+    .AboutMe {
+        flex-direction: column;
+    }
+}
