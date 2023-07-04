@@ -110,9 +110,6 @@ section p {
     text-align: right;
 }
 
-@media screen and (max-width:980) {
-
-}
 
 @media screen and (max-width:768px) {
     .AboutMe {
